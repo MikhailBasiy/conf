@@ -1,0 +1,38 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "c36ca04c-c861-4524-806d-239d65d4e437",
+            "flow": "xtls-rprx-vision"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.cloudflare.com:443",
+          "xver": 0,
+          "serverNames": [
+            "www.cloudflare.com"
+          ],
+          "privateKey": "EE2eEcG82RNMFMmTU81Kg6jB0uP-Py7jCW7UkdIc-1s",
+          "shortIds": [
+            "12345678"
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
