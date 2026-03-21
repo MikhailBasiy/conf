@@ -4,7 +4,7 @@ services:
     container_name: gitlab
     restart: always
 
-    hostname: gitlab.yourdomain.com
+    hostname: v2202603345366442081.nicesrv.de
 
     ports:
       - "80:80"
